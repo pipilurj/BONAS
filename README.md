@@ -20,7 +20,7 @@ Download cifar10 datset and place it into ./data
 
 A log file recording experiment result will be generated after executing the script.
 ```
-cd nips
+cd BONAS
 python bogcn_distributed_singlecard.py
 ```
 All experiment settings are specified in settings.py, one can change them accordingly
