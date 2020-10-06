@@ -29,4 +29,6 @@ All experiment settings are specified in settings.py, one can change them accord
 
 * [Scalable Bayesian Optimization Using Deep Neural Networks](https://arxiv.org/pdf/1502.05700.pdf)
 * [Semi-Supervised Classification with Graph Convolutional Networks](https://openreview.net/pdf?id=SJU4ayYgl)
-* [scalable global optimization via local bayesian optimization](https://arxiv.org/abs/1910.01739)
+* [Scalable global optimization via local bayesian optimization](https://arxiv.org/abs/1910.01739)
+* [DARTS: Differentiable Architecture Search](https://arxiv.org/abs/1806.09055)
+
