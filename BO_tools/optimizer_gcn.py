@@ -120,7 +120,7 @@ class Optimizer(object):
         beta = -np.log(np.sqrt(2) + 1)
         sig = abs((hi_ci - prediction) / 2)
         E = self.sigmoid(prediction / np.sqrt(1 + gamma * sig ^ 2))
-        std = np.sqrt(self.sigmoid((alpha * (prediction + beta)) / np.sqrt(1 + gamma * alpha^2 * sig^2)) - E^2)
+        std = np.sqt(self.sigmoid((alpha * (prediction + beta)) / np.sqrt(1 + gamma * alpha^2 * sig^2)) - E^2)
         # aquisition function defined in paper
         ucb = E + 0.5 * std
         return ucb, std
